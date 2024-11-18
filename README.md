@@ -1,4 +1,3 @@
-```markdown
 # Agnitus Project
 
 Agnitus is a system information gathering tool that collects essential data about a Windows machine, such as user information, system info, running processes, network data, and installed programs. The tool is designed to run in administrator mode and can gather a wide range of data useful for system audits, diagnostics, or monitoring purposes.
@@ -18,7 +17,7 @@ Agnitus is a system information gathering tool that collects essential data abou
    ```bash
    git clone https://github.com/yourusername/agnitus.git
    ```
-   
+
 2. Navigate to the directory:
    ```bash
    cd agnitus
@@ -33,7 +32,7 @@ Agnitus is a system information gathering tool that collects essential data abou
 
 ## Installation
 
-No installation required, just download the repository and run the script. 
+No installation required, just download the repository and run the script.
 
 Make sure the following utilities are available on your system:
 - `net`
@@ -44,7 +43,7 @@ Make sure the following utilities are available on your system:
 ## Features to Be Implemented
 
 - **Encryption of Output Files**: Add the ability to encrypt the output files after they are collected, making them harder to read.
-  
+
 - **Scheduled Task**: Implement functionality to schedule the script to run periodically (daily, weekly, etc.) using Windows Task Scheduler.
 
 - **Remote Upload**: After collecting data, upload the results to a remote server via FTP, HTTP, or a cloud service API.
@@ -63,6 +62,14 @@ Make sure the following utilities are available on your system:
 
 - **Email Notification**: Implement email notification when the script has completed gathering information.
 
+## Disclaimer
+
+**Agnitus** is intended for educational purposes, system diagnostics, and authorized system administration tasks only. The author is not responsible for any misuse, damage, or legal consequences resulting from the use of this tool. 
+
+It is the responsibility of the user to ensure that this tool is only used in environments where they have explicit permission to gather system data.
+
+Any unauthorized use of this tool, such as accessing or collecting information from systems without permission, is illegal and unethical. **Use at your own risk.**
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -71,12 +78,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - The Agnitus project uses basic Windows system commands and PowerShell for gathering system data.
 - Contributions are welcome! Feel free to fork and submit pull requests.
-```
-
-This README gives a clean overview of the project, how to use it, and what additional features are planned for implementation. Feel free to adjust the sections according to your needs, especially the license and acknowledgments parts.
-
-## Disclaimer
-
-**Agnitus** is intended for educational purposes, system diagnostics, and authorized system administration tasks only. The author is not responsible for any misuse, damage, or legal consequences resulting from the use of this tool. It is the responsibility of the user to ensure that this tool is only used in environments where they have explicit permission to gather system data.
-
-Any unauthorized use of this tool, such as accessing or collecting information from systems without permission, is illegal and unethical. Use at your own risk.
