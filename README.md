@@ -1,5 +1,3 @@
-Here's a properly formatted GitHub README for your project, including the additions you mentioned in the "To Be Implemented" section:
-
 ```markdown
 # Agnitus Project
 
