@@ -15,7 +15,7 @@ Agnitus is a system information gathering tool that collects essential data abou
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/agnitus.git
+   git clone https://github.com/hellybrine/agnitus.git
    ```
 
 2. Navigate to the directory:
